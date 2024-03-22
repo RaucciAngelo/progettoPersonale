@@ -1,0 +1,27 @@
+<h1> Angelo component in cui proviamo l'observable </h1>
+<div>
+    <table style="border: 1cm; border-color: black;">
+        <tbody>
+            <tr>
+                <td>
+                    <a routerLink=""> torna indietro cliccando qui </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div *ngIf="data | async as data">
+    <div *ngFor="let d of data">
+        <p> {{ d.title}} </p>
+        <hr>
+        <p> {{d.body}} </p>
+        <hr>
+    </div>
+    <p> {{data2}} </p>
+
+</div>
+
+<div *ngIf="observableService.result| async as data2">
+    <p> {{ data2.name }} </p>
+
+</div>
