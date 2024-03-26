@@ -4,11 +4,13 @@ import { AppComponent } from './app.component';
 import { AngeloComponent } from './angelo/angelo.component';
 import { HomeComponent } from './home/home.component';
 import { EsteticaComponent } from './estetica/estetica.component';
+import { EsercUnoComponent } from './eserc-uno/eserc-uno.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'angelo', component: AngeloComponent},
-  {path: 'estetica', component: EsteticaComponent}
+  {path: 'estetica', component: EsteticaComponent},
+  {path: 'esercUno', component: EsercUnoComponent}
 ];
 
 @NgModule({

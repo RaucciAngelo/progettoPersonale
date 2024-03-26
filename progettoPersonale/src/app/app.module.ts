@@ -9,13 +9,15 @@ import { AngeloComponent } from './angelo/angelo.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EsteticaComponent } from './estetica/estetica.component';
+import { EsercUnoComponent } from './eserc-uno/eserc-uno.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AngeloComponent,
     HomeComponent,
-    EsteticaComponent,    
+    EsteticaComponent,
+    EsercUnoComponent,    
   ],
   imports: [
     BrowserModule,

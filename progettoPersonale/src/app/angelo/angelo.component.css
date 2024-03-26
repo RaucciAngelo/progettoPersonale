@@ -18,4 +18,11 @@ table {
   tr:hover {
     background-color: gainsboro;
   }
+
+  #reindirizzo{
+    border: 1cm; 
+    border-color: black; 
+    font-family: 'Georgia', cursive;
+    font-size: x-large;
+  }
   

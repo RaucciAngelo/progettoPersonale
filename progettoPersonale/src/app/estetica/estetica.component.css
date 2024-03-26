@@ -1,21 +1,25 @@
-table {
-    border-collapse: collapse;
-    width: 100%;
-    color: black;
-    text-align: center;
-  }
-  
-  th, td {
-    border: 1px solid black;
-    padding: 8px;
-  }
-  
-  th {
-    text-align: center;
-    background-color: #333;
-  }
-  
-  tr:hover {
-    background-color: gainsboro;
-  }
-  
+
+
+th {
+  text-align: center;
+  background-color: #333;
+}
+
+tr:hover {
+  background-color: gainsboro;
+}
+
+#stile, td{
+  width: 100%;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+#reindirizzo , #reindirizzo td{
+  border: 1px solid black;
+  border-color: black;
+  font-family: 'Georgia', cursive;
+  font-size: x-large;
+  text-align: center;
+  border-radius: 2cm;
+}

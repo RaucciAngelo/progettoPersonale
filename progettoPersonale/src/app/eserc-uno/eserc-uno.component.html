@@ -1,0 +1,24 @@
+<h2>
+    Cocco console log test!
+</h2>
+<hr>
+<div>
+    <p style="color:black;"> La parola è: {{ cocco }} </p>
+    <button (click)="coccoBello(cocco)">
+        Vediamo il log
+    </button>
+</div>
+<br>
+<div>
+    <p> L'array è : <span *ngFor="let numero of numeri"> {{ numero }} </span></p>
+    <button (click)="aggiunta(numeri)">
+        Array log
+    </button>
+</div>
+<br><br>
+<div>
+    <p>Pippo è: {{ pippo }}</p>
+    <button (click)="invertiParola(pippo)">
+        InvertiParola
+    </button>
+</div>
