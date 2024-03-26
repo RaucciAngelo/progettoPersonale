@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EsteticaComponent } from './estetica/estetica.component';
 import { EsercUnoComponent } from './eserc-uno/eserc-uno.component';
+import { EsercDueComponent } from './eserc-due/eserc-due.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { EsercUnoComponent } from './eserc-uno/eserc-uno.component';
     AngeloComponent,
     HomeComponent,
     EsteticaComponent,
-    EsercUnoComponent,    
+    EsercUnoComponent,
+    EsercDueComponent,    
   ],
   imports: [
     BrowserModule,
