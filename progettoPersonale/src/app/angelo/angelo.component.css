@@ -1,28 +1,34 @@
 table {
-    border-collapse: collapse;
-    width: 100%;
-    color: black;
-    text-align: center;
-  }
-  
-  th, td {
-    border: 1px solid black;
-    padding: 8px;
-  }
-  
-  th {
-    text-align: center;
-    background-color: #333;
-  }
-  
-  tr:hover {
-    background-color: gainsboro;
-  }
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
 
-  #reindirizzo{
-    border: 1cm; 
-    border-color: black; 
-    font-family: 'Georgia', cursive;
-    font-size: x-large;
-  }
-  
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  text-align: center;
+  background-color: #333;
+}
+
+tr:hover {
+  background-color: burlywood;
+}
+
+#reindirizzo {
+  border: 1cm;
+  border-color: black;
+  font-family: 'Georgia', cursive;
+  font-size: x-large;
+}
+
+h1{
+  text-align: center;
+  margin: auto;
+  background-color: azure;
+}

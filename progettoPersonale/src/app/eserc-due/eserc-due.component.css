@@ -1,0 +1,22 @@
+#reindirizzo,
+#reindirizzo td {
+    border: 1px solid black;
+    border-color: black;
+    font-family: 'Georgia', cursive;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 2cm;
+    margin: auto;
+}
+
+button {
+    border: 1px black solid;
+    color: blue;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: aquamarine;
+}

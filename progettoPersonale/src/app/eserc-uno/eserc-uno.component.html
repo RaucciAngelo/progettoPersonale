@@ -1,24 +1,67 @@
 <h2>
-    Cocco console log test!
+    Test di funzioni su Array e non
 </h2>
 <hr>
 <div>
-    <p style="color:black;"> La parola è: {{ cocco }} </p>
-    <button (click)="coccoBello(cocco)">
-        Vediamo il log
-    </button>
+    <table id="reindirizzo">
+        <tbody>
+            <tr>
+                <td>
+                    <a routerLink=""> Torna indietro cliccando qui </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 <br>
-<div>
-    <p> L'array è : <span *ngFor="let numero of numeri"> {{ numero }} </span></p>
-    <button (click)="aggiunta(numeri)">
-        Array log
-    </button>
-</div>
-<br><br>
-<div>
-    <p>Pippo è: {{ pippo }}</p>
-    <button (click)="invertiParola(pippo)">
-        InvertiParola
-    </button>
-</div>
+<hr>
+<table>
+    <tr>
+        <td>
+            <div>
+                <p style="color:black;"> La parola è: {{ cocco | uppercase}} </p>
+            </div>
+        </td>
+        <td>
+            <button (click)="coccoBello(cocco)">
+                Vediamo il log
+            </button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <p> L'array è : <span *ngFor="let numero of numeri"> {{ numero }} - </span></p>
+            </div>
+        </td>
+        <td>
+            <button (click)="aggiunta(numeri)">
+                Array log
+            </button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <p>Pippo è: {{ pippo }}</p>
+            </div>
+        </td>
+        <td>
+            <button (click)="invertiParola(pippo)">
+                InvertiParola
+            </button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+                <p *ngIf="on" style="color: red; background-color: antiquewhite;"> Questa frase compare e scompare in base al click sul bottone </p>
+            </div>
+        </td>
+        <td>
+            <button (click)="interruttore(on)">
+                Pinco pallino
+            </button>
+        </td>
+    </tr>
+</table>

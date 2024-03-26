@@ -13,6 +13,8 @@ export class EsercUnoComponent implements OnInit {
 
   pippo: string = "pippo";
 
+  on: boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -26,18 +28,25 @@ export class EsercUnoComponent implements OnInit {
   }
 
   aggiunta(numeri: number[]) {
-    this.numeri.push(10);
-    console.log(this.numeri);
-    numeri.push(20);
-    console.log("Numeri ora ->", numeri);
-    numeri.reverse();
-    console.log("Numeri ora reverted ->", numeri);
+    //Con questo codice quello che andiamo a fare è fissare prima di tutto di non andare oltre i 100.
+    //Fissiamo poi un numero iniziale che sarà uguale alla lunghezza dell'array + 10 (lunghezza = 1 perchè è un elemento)
+    if (this.numeri.length < 100) {
+      const numeroIniziale = this.numeri.length + 10;
+      if (numeroIniziale < 100) { //Qui fissiamo fino a quando deve girare il tutto
+        this.numeri.push(numeroIniziale); //Inseriamo il numero ciclato
+        console.log(this.numeri);
+      }
+    }
   }
 
   invertiParola(pippo: string) {
     console.log(this.pippo);
     this.pippo = pippo.split("").reverse().join("");
-    console.log("reverse", this.pippo);    
+    console.log("reverse", this.pippo);
+  }
+
+  interruttore(on:boolean){
+    this.on = !this.on;
   }
 
 }

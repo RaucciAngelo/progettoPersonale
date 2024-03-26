@@ -1,1 +1,14 @@
-<p>eserc-due works!</p>
+<button (click)="show = !show">ON/OFF</button>  
+    <h1 @EsercDueComponent *ngIf="show">Eccomi visibile!</h1>  
+    <div *ngIf="show">
+        <table id="reindirizzo">
+            <tbody>
+                <tr>
+                    <td>
+                        <a routerLink=""> Torna indietro cliccando qui </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <img src="https://www.wandery.it/img/sample-image.jpg" *ngIf="show">    
