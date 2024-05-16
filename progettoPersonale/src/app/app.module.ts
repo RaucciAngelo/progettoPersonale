@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EsteticaComponent } from './estetica/estetica.component';
 import { EsercUnoComponent } from './eserc-uno/eserc-uno.component';
 import { EsercDueComponent } from './eserc-due/eserc-due.component';
+import { EsercitazioneComponent } from './esercitazione/esercitazione.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EsercDueComponent } from './eserc-due/eserc-due.component';
     HomeComponent,
     EsteticaComponent,
     EsercUnoComponent,
-    EsercDueComponent,    
+    EsercDueComponent,
+    EsercitazioneComponent,    
   ],
   imports: [
     BrowserModule,

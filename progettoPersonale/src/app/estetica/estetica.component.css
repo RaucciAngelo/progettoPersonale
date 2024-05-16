@@ -46,6 +46,6 @@ img {
   position: relative;
 }
 
-img:hover{
+img:hover {
   visibility: hidden;
 }
