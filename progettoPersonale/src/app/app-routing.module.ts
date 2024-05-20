@@ -9,6 +9,7 @@ import { EsercDueComponent } from './eserc-due/eserc-due.component';
 import { EsercitazioneComponent } from './esercitazione/esercitazione.component';
 import { ProfiloPersonaleComponent } from './profilo-personale/profilo-personale.component';
 import { ContattoComponent } from './contatto/contatto.component';
+import { WhoComponent } from './who/who.component';
 
 const routes: Routes = [
   {path: '', component: ProfiloPersonaleComponent},
@@ -17,8 +18,9 @@ const routes: Routes = [
   {path: 'estetica', component: EsteticaComponent},
   {path: 'esercUno', component: EsercUnoComponent},
   {path: 'esercDue', component: EsercDueComponent},
-  {path: 'esercitazione', component:EsercitazioneComponent},
-  {path: 'contatto', component:ContattoComponent}
+  {path: 'esercitazione', component: EsercitazioneComponent},
+  {path: 'contatto', component: ContattoComponent},
+  {path: 'about', component: WhoComponent}
 ];
 
 @NgModule({
