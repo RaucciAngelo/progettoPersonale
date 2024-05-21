@@ -6,6 +6,11 @@
   font-size: 60px;
 }
 
+.divvone{
+display: flex;
+justify-content: space-around;
+}
+
 th,
 td,
 tr {

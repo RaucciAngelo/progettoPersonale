@@ -1,43 +1,46 @@
+<html>
 <h1>
-    Come contattarmi?
+  Come contattarmi?
 </h1>
 <br>
 <div class="centrati">
-    <button class="button-85" role="button" style="margin: 10px;" (click)="toggleIndirizzi()">
-        Indirizzi
-    </button>
-    <button class="button-85" role="button" routerLink="">
-        Torna indietro
-    </button>
+  <button class="button-85" role="button" style="margin: 10px;" (click)="toggleIndirizzi()">
+    Indirizzi
+  </button>
+  <button class="button-85" role="button" routerLink="">
+    Torna indietro
+  </button>
 </div>
 <br>
 <div id="wrapper" *ngIf="indirizziOn">
-    <h1>Tutti i posti in cui trovarmi</h1>
-    
-    <table id="keywords" cellspacing="0" cellpadding="0">
-      <thead>
-        <tr>
-          <th><span>Piattaforma</span></th>
-          <th><span>Link/Indirizzo Email</span></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="lalign">Linkedin</td>
-          <td>link</td>
-        </tr>
-        <tr>
-          <td class="lalign">YouTube</td>
-          <td>link</td>
-        </tr>
-        <tr>
-          <td class="lalign">Email</td>
-          <td>@email</td>
-        </tr>
-        <tr>
-          <td class="lalign">GitHub</td>
-          <td>link</td>
-        </tr>
-      </tbody>
-    </table>
-   </div> 
+  <h1>Tutti i posti in cui trovarmi</h1>
+
+  <table id="keywords" cellspacing="0" cellpadding="0">
+    <thead>
+      <tr>
+        <th><span>Piattaforma</span></th>
+        <th><span>Link/Indirizzo Email</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="lalign" style="text-align: center;">Linkedin</td>
+        <td style="text-align: center;">link</td>
+      </tr>
+      <tr>
+        <td class="lalign" style="text-align: center;">YouTube</td>
+        <td style="text-align: center;">link</td>
+      </tr>
+      <tr>
+        <td class="lalign" style="text-align: center;">Email</td>
+        <td style="text-align: center;">@email</td>
+      </tr>
+      <tr>
+        <td class="lalign" style="text-align: center;">GitHub</td>
+        <td style="text-align: center;">link</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</html>

@@ -12,4 +12,10 @@ export class WhoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  github(){
+    let link:String = "https://github.com/RaucciAngelo?tab=repositories";
+    //link = "https://github.com/RaucciAngelo?tab=repositories";
+    
+  }
+
 }

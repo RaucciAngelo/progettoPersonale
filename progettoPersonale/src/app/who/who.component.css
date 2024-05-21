@@ -213,6 +213,7 @@ body {
 .button-63 {
     align-items: center;
     width: 100%;
+    font-family: 'sans-serif';
     /*background-image: linear-gradient(144deg,#21D4FD, #21D4FD 50%,#21D4FD);*/
     background-color: transparent;
     border: 0;
@@ -221,7 +222,7 @@ body {
     box-sizing: border-box;
     color: #21D4FD;
     display: flex;
-    font-family: Phantomsans, sans-serif;
+   /*   font-family: Phantomsans, sans-serif;*/
     font-size: 20px;
     justify-content: center;
     line-height: 1em;

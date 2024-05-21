@@ -19,10 +19,11 @@ h2 {
     justify-content: center;
 }
 
-html,
-body {
+html {
     height: 100%;
-
+    width:  100%;;
+    background-color: aliceblue;
+    
 }
 
 body {
@@ -57,7 +58,6 @@ h1:after {
     left: .06em;
     z-index: -1;
     text-shadow: none;
-    
     background-image:
         linear-gradient(45deg,
             transparent 45%,
@@ -246,6 +246,7 @@ video {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    text-align: center;
 }
 
 html {
